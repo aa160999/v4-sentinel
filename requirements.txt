@@ -1,4 +1,12 @@
-web3>=6.0.0
-asyncio
-requests
-python-dotenv
+# 核心 EVM 交互与签名抽象
+web3>=6.15.0
+eth-account>=0.11.0
+
+# 异步非阻塞通信与高并发长连接 (替代 requests)
+httpx>=0.27.0
+aiohttp>=3.9.0
+websockets>=12.0
+
+# 环境变量与策略风控类型校验
+python-dotenv>=1.0.0
+pydantic>=2.7.0
